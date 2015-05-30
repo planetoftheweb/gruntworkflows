@@ -22,20 +22,7 @@ module.exports = function(grunt) {
           dest: 'builds/development/css/style.css'
         }]
       }
-    }, //sass
-
-    watch: {
-      options: {
-        spawn: false
-      },
-      scripts: {
-        files: ['builds/development/**/*.html',
-        'components/scripts/**/*.js',
-        'components/sass/**/*.scss'],
-        tasks: ['concat', 'sass']
-      }
-    }
-
+    } //sass
 
   }); //initConfig
 
@@ -43,6 +30,6 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-sass');
   grunt.loadNpmTasks('grunt-contrib-watch');
 
-  grunt.registerTask('default', ['concat', 'sass', 'watch']);
+  grunt.registerTask('default', ['concat', 'sass']);
 
 }; //wrapper function
