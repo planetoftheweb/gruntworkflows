@@ -1,0 +1,20 @@
+{
+  "name": "gruntworkflows",
+  "version": "1.0.0",
+  "description": "Workflows with Grunt Course on Lynda.com",
+  "authors": [
+    "Ray Villalobos"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.4",
+    "mustache": "~2.0.0"
+  }
+}
