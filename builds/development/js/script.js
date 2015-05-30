@@ -1,3 +1,6 @@
+
+
+//------------------------------------------
 var pixgrid = function() {
     function centerImage(theImage) {
         var myDifX = (window.innerWidth - theImage.width) / 2, myDifY = (window.innerHeight - theImage.height) / 2;
@@ -34,6 +37,8 @@ var pixgrid = function() {
         }, !1);
     }
 }();
+
+//------------------------------------------
 var rclick = function() {
   var myNodes = document.querySelectorAll(".rclick");
  
@@ -70,6 +75,8 @@ var rclick = function() {
     }, false); // click event
   }
 }(); //anonymous closure
+
+//------------------------------------------
 $(function() {
 
 	$('.tagline').append('The most creative minds in Art');
