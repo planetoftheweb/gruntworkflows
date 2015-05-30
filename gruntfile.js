@@ -12,6 +12,13 @@ module.exports = function(grunt) {
       }
     }, //concat
 
+    bower_concat: {
+      all: {
+        dest: 'builds/development/js/_bower.js',
+        cssDest: 'builds/development/css/_bower.css'
+      }
+    },
+
     sass: {
       dist: {
         options: {
@@ -62,7 +69,8 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-connect');
   grunt.loadNpmTasks('grunt-wiredep');
+  grunt.loadNpmTasks('grunt-bower-concat');
 
-  grunt.registerTask('default', ['wiredep', 'concat', 'sass', 'connect', 'watch']);
+  grunt.registerTask('default', ['wiredep', 'bower_concat', 'concat', 'sass', 'connect', 'watch']);
 
 }; //wrapper function
