@@ -3,5 +3,9 @@
   "version": "1.0.0",
   "description": "Project for Grunt Workflows Course",
   "author": "Ray Villalobos",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-concat": "^0.5.1"
+  }
 }
