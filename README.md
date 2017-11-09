@@ -1,7 +1,7 @@
 # Grunt.js: Web Workflows
 This is the repository for my course Grunt.js: Web Workflows. The full course is available on [LinkedIn Learning](https://www.linkedin.com/learning/grunt-js-web-workflows?trk=insiders_6787408_learning) and [Lynda.com](https://www.lynda.com/Grunt-js-tutorials/Web-Workflows-Grunt-js/368921-2.html)
 
-[![Grunt.js: Web Workflows](https://media-exp2.licdn.com/media-proxy/ext?w=1200&h=675&f=n&hash=KVLRopcdZaCdLg0HcOPNC5Db4o8%3D&ora=1%2CaFBCTXdkRmpGL2lvQUFBPQ%2CxAVta5g-0R6plxVUzgUv5K_PrkC9q0RIUJDPBy-iXCev_tCfY3DrfMPaZLSiol8QeyUFkwY3eu6tSTPkEY69LcLmY4Yx3A)](https://www.linkedin.com/learning/bootstrap-4-essential-training?trk=insiders_6787408_learning)
+[![Grunt.js: Web Workflows](https://media-exp2.licdn.com/media-proxy/ext?w=1200&h=675&f=n&hash=6HrddnpdvB34YxBri%2Bkvehljlpk%3D&ora=1%2CaFBCTXdkRmpGL2lvQUFBPQ%2CxAVta5g-0R6plxVUzgUv5K_PrkC9q0RIUJDPBy-iXS2j-NSfY3HhcMXeZLSioVoWfikDmAw2fumqRDLmFo69LcLmY4Yx3A)](https://www.linkedin.com/learning/grunt-js-web-workflows?trk=insiders_6787408_learning)
 
 Developing a workflow will help you program, test, and deploy your web applications more easily and efficiently. Tools like Grunt.js make generating workflows as easy as writing a setup file. Here Ray Villalobos covers the key steps in creating a Grunt-based web workflow, from creating tasks to process Sass and combine scripts to automating the entire workflow. He also shows how to use Bower.io to quickly load frameworks such as Bootstrap, jQuery, and Mustache.js.
 
